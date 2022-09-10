@@ -1,0 +1,899 @@
+<!-- COPYRIGHT 2022 KHEM RAJ BUDHATHOKI -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendy</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/quires.css" />
+  </head>
+
+  <body>
+    <!-- HEADER SECTION BEGIN -->
+    <header class="section-header">
+      <div class="header container">
+        <a href="index.html" class="calendy-logo--box">
+          <img src="img/logo.png" alt="Calendy Logo" class="logo" />
+        </a>
+
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li class="main-nav-link active">
+              <a href="index.html">Calendar</a>
+            </li>
+            <li class="main-nav-link">
+              <a href="rashifal.html">Rashifal</a>
+            </li>
+            <li class="main-nav-link"><a href="forex.html">Forex</a></li>
+            <li class="main-nav-link"><a href="blog.html">Blog</a></li>
+          </ul>
+        </nav>
+
+        <button class="nav-cta-more nav-hide-me">
+          <ion-icon name="menu-outline" class="more-nav-icon"></ion-icon>
+        </button>
+
+        <button class="btn nav-cta">
+          <span>Log In</span>
+        </button>
+      </div>
+    </header>
+    <!-- HEADER SECTION END -->
+
+    <main>
+      <!-- TODAY  SECTION BEGIN -->
+      <section class="section-today">
+        <div class="container today radius gradient">
+          <div class="today-info">
+            <div class="today-date-info nep-font">
+              <span>२२ असार २०७९, बुधवार</span>
+            </div>
+            <div class="today-jotyish-info-time nep-font">
+              <span> असार शुक्ल सप्तमी पञ्चाङ्ग: वरियान गर उत्तर</span>
+            </div>
+            <div class="two-time">
+              <div class="today-right-time nep-font">
+                <span>बिहानको ०९ : ४०</span>
+              </div>
+              <div class="today-right-eng-time"><span>Jul 06, 2022</span></div>
+            </div>
+          </div>
+
+          <div class="calendy-info heading-small">Nepali Calendar 2079</div>
+
+          <!-- SEARCH BOX -->
+          <div class="search-event">
+            <form class="today-search-event radius">
+              <button class="search-event-btn">
+                <ion-icon name="search" class="event-icon"></ion-icon>
+              </button>
+              <input
+                type="text"
+                name="search-text"
+                class="search-event-input"
+                placeholder="Search Events"
+                required
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- TODAY SECTION END -->
+
+      <!-- CALENDAR SECTION BEGIN -->
+      <section class="section-calendy">
+        <div class="calendar container">
+          <!-- EVENT COMMING BEGIN -->
+          <aside class="event-box radius">
+            <h1 class="heading-tertiary event-heading nep-font">
+              आउँदा दिनहरु
+            </h1>
+
+            <div class="upcoming-event">
+              <div class="event-came radius nep-font">
+                <div class="event-came-time">
+                  <span>२६</span>
+                  <span>असार</span>
+                </div>
+                <div class="event-came-info">
+                  <span>
+                    <a href="#" class="event-links">
+                      चतुर्मास व्रत आरम्भ/हरिशयनी एकादशी व्रत (तुलसी रोप्ने)
+                    </a>
+                  </span>
+                  <span class="event--day-left">४ दिन पछि</span>
+                </div>
+              </div>
+
+              <div class="event-came radius nep-font">
+                <div class="event-came-time">
+                  <span>२७</span>
+                  <span>असार</span>
+                </div>
+                <div class="event-came-info">
+                  <span>
+                    <a href="#" class="event-links">
+                      सोम प्रदोष व्रत/विश्व जनसंख्या दिवस
+                    </a>
+                  </span>
+                  <span class="day-left">5 दिन पछि</span>
+                </div>
+              </div>
+
+              <div class="event-came radius nep-font">
+                <div class="event-came-time">
+                  <span>२९</span>
+                  <span>असार</span>
+                </div>
+                <div class="event-came-info">
+                  <span>
+                    <a href="#" class="event-links">
+                      असार गुरु पूर्णिमा/भानु जयन्ती/व्यासजयन्ती
+                    </a>
+                  </span>
+                  <span class="day-left">७ दिन पछि</span>
+                </div>
+              </div>
+
+              <div class="event-came radius nep-font">
+                <div class="event-came-time">
+                  <span>३१</span>
+                  <span>असार</span>
+                </div>
+                <div class="event-came-info">
+                  <span>
+                    <a href="#" class="event-links"> विश्व युवा दक्षता दिवस </a>
+                  </span>
+                  <span class="day-left">९ दिन पछि</span>
+                </div>
+              </div>
+
+              <div class="event-came radius nep-font">
+                <div class="event-came-time">
+                  <span>१</span>
+                  <span>साउन</span>
+                </div>
+                <div class="event-came-info">
+                  <span>
+                    <a href="#" class="event-links">
+                      कर्कट सङ्क्रान्ति / लुतो फाल्ने दिन/दक्षिणायन आरम्भ/थारु
+                      गुरिया पर्व
+                    </a>
+                  </span>
+                  <span class="day-left">११ दिन पछि</span>
+                </div>
+              </div>
+
+              <div class="event-came radius nep-font">
+                <div class="event-came-time">
+                  <span>९</span>
+                  <span>साउन</span>
+                </div>
+                <div class="event-came-info">
+                  <span>
+                    <a href="#" class="event-links">सोम प्रदोष व्रत</a>
+                  </span>
+                  <span class="day-left">१९ दिन पछि</span>
+                </div>
+              </div>
+
+              <div class="event-came radius nep-font">
+                <div class="event-came-time">
+                  <span>१०</span>
+                  <span>साउन</span>
+                </div>
+                <div class="event-came-info">
+                  <span>
+                    <a href="#" class="event-links">गथांमुगः चःह्रे</a>
+                  </span>
+                  <span class="day-left">२० दिन पछि</span>
+                </div>
+              </div>
+
+              <div class="event-came radius nep-font">
+                <div class="event-came-time">
+                  <span>१२</span>
+                  <span>साउन</span>
+                </div>
+                <div class="event-came-info">
+                  <span>
+                    <a href="#" class="event-links">विश्व हेपाटाइटिस दिवस</a>
+                  </span>
+                  <span class="day-left">२२ दिन पछि</span>
+                </div>
+              </div>
+
+              <div class="event-came radius nep-font">
+                <div class="event-came-time">
+                  <span>१४</span>
+                  <span>साउन</span>
+                </div>
+                <div class="event-came-info">
+                  <span>
+                    <a href="#" class="event-links">
+                      अन्तर्राष्ट्रिय मित्रता दिवस/अन्तर्राष्ट्रिय मानव बेचबिखन
+                      विरुद्ध दिवस
+                    </a>
+                  </span>
+                  <span class="day-left">२४ दिन पछि</span>
+                </div>
+              </div>
+
+              <div class="event-came radius nep-font">
+                <div class="event-came-time">
+                  <span>१५</span>
+                  <span>साउन</span>
+                </div>
+                <div class="event-came-info">
+                  <span>
+                    <a href="#" class="event-links">
+                      खीर खाने दिन/वराह जयन्ती
+                    </a>
+                  </span>
+                  <span class="day-left">२५ दिन पछि</span>
+                </div>
+              </div>
+
+              <div class="event-came radius nep-font">
+                <div class="event-came-time">
+                  <span>१७</span>
+                  <span>साउन</span>
+                </div>
+                <div class="event-came-info">
+                  <span>
+                    <a href="#" class="event-links"> नाग पञ्चमी व्रत </a>
+                  </span>
+                  <span class="day-left">२७ दिन पछि</span>
+                </div>
+              </div>
+
+              <div class="event-came radius nep-font">
+                <div class="event-came-time">
+                  <span>१८</span>
+                  <span>साउन</span>
+                </div>
+                <div class="event-came-info">
+                  <span>
+                    <a href="#" class="event-links"> कल्की जयन्ती </a>
+                  </span>
+                  <span class="day-left">२८ दिन पछि</span>
+                </div>
+              </div>
+
+              <div class="event-came radius nep-font">
+                <div class="event-came-time">
+                  <span>१९</span>
+                  <span>साउन</span>
+                </div>
+                <div class="event-came-info">
+                  <span>
+                    <a href="#" class="event-links"> तुलसीदास जयन्ती </a>
+                  </span>
+                  <span class="day-left">२९ दिन पछि</span>
+                </div>
+              </div>
+
+              <div class="event-came radius nep-font">
+                <div class="event-came-time">
+                  <span>२३</span>
+                  <span>साउन</span>
+                </div>
+                <div class="event-came-info">
+                  <span>
+                    <a href="#" class="event-links"> पुत्रदा एकादशी व्रत </a>
+                  </span>
+                  <span class="day-left">३३ दिन पछि</span>
+                </div>
+              </div>
+            </div>
+          </aside>
+          <!-- EVENT COMMING END -->
+
+          <!-- CALENDAR BOX BEGIN -->
+          <div class="calendar-time-box">
+            <div class="date-navigation">
+              <div class="range-left">
+                <button class="btn today-time nep-font">
+                  <span>आज</span>
+                </button>
+
+                <div class="range-box">
+                  <button class="btn range-btn">
+                    <ion-icon name="chevron-back-outline" class="range-icon">
+                    </ion-icon>
+                  </button>
+                  <form class="range-form">
+                    <select>
+                      <option value="">2080</option>
+                      <option value="">2081</option>
+                      <option value="">2082</option>
+                      <option value="">2083</option>
+                      <option value="">2084</option>
+                      <option value="">2085</option>
+                      <option value="">2086</option>
+                      <option value="" selected>2079</option>
+                      <option value="">2080</option>
+                      <option value="">2081</option>
+                      <option value="">2082</option>
+                      <option value="">2083</option>
+                      <option value="">2084</option>
+                      <option value="">2085</option>
+                      <option value="">2086</option>
+                    </select>
+                  </form>
+
+                  <form class="range-form">
+                    <select class="nep-range nep-font">
+                      <option value="">वैशाख</option>
+                      <option value="">जेठ</option>
+                      <option value="" selected>असार</option>
+                      <option value="">साउन</option>
+                      <option value="">भदौ</option>
+                      <option value="">असोज</option>
+                      <option value="">कार्तिक</option>
+                      <option value="">मंसिर</option>
+                      <option value="">पुष</option>
+                      <option value="">माघ</option>
+                      <option value="">फागुन</option>
+                      <option value="">चैत</option>
+                    </select>
+                  </form>
+
+                  <button class="btn range-btn">
+                    <ion-icon name="chevron-forward-outline" class="range-icon">
+                    </ion-icon>
+                  </button>
+                </div>
+              </div>
+
+              <div class="right-time">
+                <span class="nep-font"> २०७९ असार </span> |
+                <span>Jun/Jul 2022</span>
+              </div>
+            </div>
+
+            <div class="calendar-day-box radius">
+              <div class="weekend grid grid-col--7">
+                <div class="weekend--box">
+                  <span class="nep-font desk-show">आइतवार</span>
+                  <span class="nep-font small-week">आइत</span>
+                  <span>Sunday</span>
+                </div>
+
+                <div class="weekend--box">
+                  <span class="nep-font desk-show">सोमवार</span>
+                  <span class="nep-font small-week">सोम</span>
+                  <span>Monday</span>
+                </div>
+
+                <div class="weekend--box">
+                  <span class="nep-font desk-show">मङ्गलवार</span>
+                  <span class="nep-font small-week">मङ्गल</span>
+                  <span>Tuesday</span>
+                </div>
+
+                <div class="weekend--box">
+                  <span class="nep-font desk-show">बुधवार</span>
+                  <span class="nep-font small-week">बुध</span>
+                  <span>Wednesday</span>
+                </div>
+
+                <div class="weekend--box">
+                  <span class="nep-font desk-show">बिहिवार</span>
+                  <span class="nep-font small-week">बिहि</span>
+                  <span>Thursday</span>
+                </div>
+
+                <div class="weekend--box">
+                  <span class="nep-font desk-show">शुक्रवार</span>
+                  <span class="nep-font small-week">शुक्र</span>
+                  <span>Friday</span>
+                </div>
+
+                <div class="weekend--box">
+                  <span class="nep-font desk-show">शनिवार</span>
+                  <span class="nep-font small-week">शनि</span>
+                  <span>Saturday</span>
+                </div>
+              </div>
+
+              <div class="monthly grid grid-col--7">
+                <div class="month-box month-dull nep-font">
+                  <span class="month-info"
+                    >प्रदोष व्रत/विश्व बालश्रम विरुद्ध दिवस
+                  </span>
+                  <span class="month-time">२९</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">त्रयोदशी</span>
+                    <span>12</span>
+                  </div>
+                </div>
+
+                <div class="month-box month-dull">
+                  <span class="month-info"> -- </span>
+                  <span class="month-time">३०</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">चतुर्दशी</span>
+                    <span>13</span>
+                  </div>
+                </div>
+
+                <div class="month-box month-dull">
+                  <span class="month-info">
+                    ज्यापुन्ही/पनौती स्नान/पूर्णिमा व्रत/कवीर...
+                  </span>
+                  <span class="month-time">३१</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">पूर्णिमा </span>
+                    <span>14</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info">
+                    मिथुन संक्रान्ति/विश्व अग्रज दुर्व्यवहार ...
+                  </span>
+                  <span class="month-time">१</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">प्रतिपदा</span>
+                    <span>15</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info">-- </span>
+                  <span class="month-time">२</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">द्वितीया</span>
+                    <span>16</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info">
+                    विश्व मरुभूमीकरण र खडेरी विरुद्ध ...
+                  </span>
+                  <span class="month-time">३</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">तृतिया</span>
+                    <span>17</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info">-- </span>
+                  <span class="month-time">४</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">चतुर्थी*</span>
+                    <span>18</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info">-- </span>
+                  <span class="month-time">५</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">पञ्चमी</span>
+                    <span>19</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info"> विश्व शरणार्थी दिवस </span>
+                  <span class="month-time">६</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">सप्तमी</span>
+                    <span>20</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info"> विश्व योग दिवस </span>
+                  <span class="month-time">७</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">अष्टमी </span>
+                    <span>21</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info"> भूमिरज</span>
+                  <span class="month-time">८</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">नवमी</span>
+                    <span>22</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info">नक्वादिशी</span>
+                  <span class="month-time">९</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">दशमी</span>
+                    <span>23</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info"> योगिनी एकादशी व्रत </span>
+                  <span class="month-time">१०</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">एकादशी</span>
+                    <span>24</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info">-- </span>
+                  <span class="month-time">११</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">द्वादशी</span>
+                    <span>25</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info">
+                    विश्व लागूपदार्थ ओसार-पसार विरुद्धको दिवस
+                  </span>
+                  <span class="month-time">१२</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">त्रयोदशी</span>
+                    <span>26</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info">दिल्लाचह्रे पूजा</span>
+                  <span class="month-time">१३</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">चतुर्दशी</span>
+                    <span>27</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info"> -- </span>
+                  <span class="month-time">१४</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">औंसी</span>
+                    <span>28</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info"> दही-चिउरा खाने दिन </span>
+                  <span class="month-time">१५</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">औंसी</span>
+                    <span>29</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info">-- </span>
+                  <span class="month-time">१६</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">प्रतिपदा</span>
+                    <span>30</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info"> जगन्नाथ रथयात्रा </span>
+                  <span class="month-time">१७</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">द्वितिय </span>
+                    <span>1</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info">विश्व खेलकुद पत्रकार दिवस</span>
+                  <span class="month-time">१८</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">तृतीया</span>
+                    <span>2</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info">-- </span>
+                  <span class="month-time">१९</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">चतुर्थी</span>
+                    <span>3</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info">--</span>
+                  <span class="month-time">२०</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">पञ्चमी</span>
+                    <span>4</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info">--</span>
+                  <span class="month-time">२१</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">षष्ठी</span>
+                    <span>5</span>
+                  </div>
+                </div>
+
+                <div class="month-box today-date">
+                  <span class="month-info">सूर्य पूजा</span>
+                  <span class="month-time">२२</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">सप्तमी </span>
+                    <span>6</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info">--</span>
+                  <span class="month-time">२३</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">अष्टमी</span>
+                    <span>7</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info">--</span>
+                  <span class="month-time">२४</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">नवमी</span>
+                    <span>8</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info">--</span>
+                  <span class="month-time">२५</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">दशमी</span>
+                    <span>9</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info">तुलसी रोपण</span>
+                  <span class="month-time">२६</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">एकादशी </span>
+                    <span>10</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info">सोम प्रदोष व्रत</span>
+                  <span class="month-time">२७</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">द्वादशी</span>
+                    <span>11</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info">--</span>
+                  <span class="month-time">२८</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">त्रयोदशी </span>
+                    <span>12</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info">गुरु पूर्णिमा</span>
+                  <span class="month-time">२९</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">पूर्णिमा</span>
+                    <span>13</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info">--</span>
+                  <span class="month-time">३०</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">प्रतिपदा</span>
+                    <span>14</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info">--</span>
+                  <span class="month-time">३१</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">द्वितिय</span>
+                    <span>15</span>
+                  </div>
+                </div>
+
+                <div class="month-box">
+                  <span class="month-info">--</span>
+                  <span class="month-time">३२</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">तृतीया</span>
+                    <span>16</span>
+                  </div>
+                </div>
+
+                <div class="month-box month-dull">
+                  <span class="month-info">लूतो फाल्ने दिन</span>
+                  <span class="month-time">१</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">चतुर्थी</span>
+                    <span>17</span>
+                  </div>
+                </div>
+
+                <div class="month-box month-dull">
+                  <span class="month-info">कमैया मुक्ति दिवस</span>
+                  <span class="month-time">२</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">पञ्चमी</span>
+                    <span>18</span>
+                  </div>
+                </div>
+
+                <div class="month-box month-dull">
+                  <span class="month-info">--</span>
+                  <span class="month-time">३</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">षष्ठी</span>
+                    <span>19</span>
+                  </div>
+                </div>
+
+                <div class="month-box month-dull">
+                  <span class="month-info">--</span>
+                  <span class="month-time">४</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">सप्तमी</span>
+                    <span>20</span>
+                  </div>
+                </div>
+
+                <div class="month-box month-dull">
+                  <span class="month-info">--</span>
+                  <span class="month-time">५</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">अष्टमी</span>
+                    <span>21</span>
+                  </div>
+                </div>
+
+                <div class="month-box month-dull">
+                  <span class="month-info">विपी स्मृति दिवस</span>
+                  <span class="month-time">६</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">नवमी</span>
+                    <span>22</span>
+                  </div>
+                </div>
+
+                <div class="month-box month-dull">
+                  <span class="month-info">--</span>
+                  <span class="month-time">७</span>
+                  <div class="month-laxmi">
+                    <span class="month-data">दशमी</span>
+                    <span>23</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- CALENDAR BOX END -->
+        </div>
+      </section>
+      <!-- CALENDAR SECTION END -->
+    </main>
+
+    <!-- FOOTER SECTION BEGIN -->
+    <footer class="section-footer gradient">
+      <div class="footer grid">
+        <div class="logo-box">
+          <div class="left-item-box">
+            <img
+              src="img/logo-white.png"
+              alt="calendy logo"
+              class="logo calendy--logo"
+            />
+            <p class="footer-para">
+              Calendy Nepali web app which show date, time and nepali holidays
+              tithi rashifal etc
+            </p>
+          </div>
+
+          <ul class="social-links">
+            <li class="footer-icon">
+              <a href="https://www.facebook.com/heykhem/">
+                <ion-icon name="logo-facebook" class="footer-ion-icon">
+                </ion-icon
+              ></a>
+            </li>
+            <li class="footer-icon">
+              <a href="#">
+                <ion-icon name="logo-instagram" class="footer-ion-icon">
+                </ion-icon>
+              </a>
+            </li>
+            <li class="footer-icon">
+              <a href="https://twitter.com/khemrajbt"
+                ><ion-icon
+                  name="logo-twitter"
+                  class="footer-ion-icon"
+                ></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="product-box">
+          <h3 class="footer-heading">Product</h3>
+          <ul class="ul-box">
+            <li class="footer-links"><a href="index.html">Calendar</a></li>
+            <li class="footer-links"><a href="rashifal.html">Rashifal</a></li>
+            <li class="footer-links"><a href="forex.html">Forex</a></li>
+            <li class="footer-links"><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="company-box">
+          <h3 class="footer-heading">Company</h3>
+          <ul class="ul-box">
+            <li class="footer-links">
+              <a href="pages/about.html">About us</a>
+            </li>
+            <li class="footer-links">
+              <a href="pages/contact.html">Contact us</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="policy--box">
+          <span class="copyright">
+            Copyright &copy; 2022 All Rights Reserved
+          </span>
+          <ul class="policy-ul">
+            <li class="footer-links">
+              <a href="pages/terms.html">Terms & Conditions</a>
+            </li>
+            <li class="footer-links">
+              <a href="pages/privacy-policy.html">Privacy Policy</a>
+            </li>
+            <li class="footer-links">
+              <a href="pages/privacy-policy.html">Cookies</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER SECTION BEGIN -->
+
+    <!-- IONICONS SCRIPT -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

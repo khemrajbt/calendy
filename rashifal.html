@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aajako Rashifal</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/quires.css" />
+  </head>
+
+  <body>
+    <!-- HEADER SECTION BEGIN -->
+    <header class="section-header">
+      <div class="header container">
+        <a href="index.html" class="calendy-logo--box">
+          <img src="img/logo.png" alt="Calendy Logo" class="logo" />
+        </a>
+
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li class="main-nav-link">
+              <a href="index.html">Calendar</a>
+            </li>
+            <li class="main-nav-link active">
+              <a href="rashifal.html">Rashifal</a>
+            </li>
+            <li class="main-nav-link"><a href="forex.html">Forex</a></li>
+            <li class="main-nav-link"><a href="blog.html">Blog</a></li>
+          </ul>
+        </nav>
+
+        <button class="nav-cta-more nav-hide-me">
+          <ion-icon name="menu-outline" class="more-nav-icon"></ion-icon>
+        </button>
+
+        <button class="btn nav-cta">
+          <span>Log In</span>
+        </button>
+      </div>
+    </header>
+    <!-- HEADER SECTION END -->
+
+    <main>
+      <!-- TODAY  SECTION BEGIN -->
+      <section class="section-today">
+        <div class="container today radius gradient">
+          <div class="today-info">
+            <div class="today-date-info nep-font">
+              <span>२२ असार २०७९, बुधवार</span>
+            </div>
+            <div class="today-jotyish-info-time nep-font">
+              <span> असार शुक्ल सप्तमी पञ्चाङ्ग: वरियान गर उत्तर</span>
+            </div>
+            <div class="two-time">
+              <div class="today-right-time nep-font">
+                <span>बिहानको ०९ : ४०</span>
+              </div>
+              <div class="today-right-eng-time"><span>Jul 06, 2022</span></div>
+            </div>
+          </div>
+
+          <div class="calendy-info heading-small">Nepali Calendar 2079</div>
+
+          <!-- SEARCH BOX -->
+          <div class="search-event">
+            <form class="today-search-event radius">
+              <button class="search-event-btn">
+                <ion-icon name="search" class="event-icon"></ion-icon>
+              </button>
+              <input
+                type="text"
+                name="search-text"
+                class="search-event-input"
+                placeholder="Search Events"
+                required
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- TODAY SECTION END -->
+
+      <!-- RASHIFAL SECTION BEGIN -->
+      <section class="section-rashifal">
+        <div class="container rashifal">
+          <div class="rashi-navigation--box">
+            <div class="rashi-today nep-font">
+              <span>आज - २२ आषाढ २०७९ बुधवार को राशिफल</span>
+            </div>
+
+            <ul class="rashi-nav">
+              <li class="rashi-nav-link">
+                <a href="#" class="rashi-active" id="daily--box">Daily</a>
+              </li>
+              <li class="rashi-nav-link" id="weekly--box">
+                <a href="#">Weekly</a>
+              </li>
+              <li class="rashi-nav-link" id="monthly--box">
+                <a href="#">Monthly</a>
+              </li>
+              <li class="rashi-nav-link" id="yearly--box">
+                <a href="#">Yearly</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="rashi-today--box grid">
+            <div class="nepali-astrology grid nep-font">
+              <div class="astrology aries">
+                <div class="astro-up--box">
+                  <div class="astro-name--box">मेष</div>
+                  <div class="astro-link-words">
+                    चु, चे, चो, ला, लि, लु, ले, लो, अ
+                  </div>
+                </div>
+                <div class="astro-down--box grid grid-2--col">
+                  <span class="astro-data--box">
+                    रचनात्मक काममा जुट्ने समय छ । विपरीत वर्ग प्रति आकर्षण
+                    बढ्नेछ । वैदेशिक क्षेत्रको काम अघि बढ्नेछ । प्रेम सम्बन्ध
+                    कसिलो होला ।
+                  </span>
+                  <img
+                    src="img/rashifal/1.png "
+                    alt="calendy aries img"
+                    class="astro-img-box"
+                  />
+                </div>
+              </div>
+
+              <div class="astrology taurus">
+                <div class="astro-up--box">
+                  <div class="astro-name--box">वृष</div>
+                  <div class="astro-link-words">
+                    इ, उ, ए, ओ, वा, वि, वु, वे, वो
+                  </div>
+                </div>
+                <div class="astro-down--box grid grid-2--col">
+                  <span class="astro-data--box">
+                    आज शुभकार्यको चर्चा चल्नेछ । नयाँ सवारी साधन प्राप्तिको योग
+                    छ । मुद्दा मामिलामा विजयी प्राप्त हुनेछ । दिनको उत्तरार्ध
+                    बढी सुखद् रहनेछ ।
+                  </span>
+                  <img
+                    src="img/rashifal/2.png"
+                    alt="calendy aries img"
+                    class="astro-img-box"
+                  />
+                </div>
+              </div>
+
+              <div class="astrology gemini">
+                <div class="astro-up--box">
+                  <div class="astro-name--box">मिथुन</div>
+                  <div class="astro-link-words">
+                    का, कि, कु, घ, ङ, छ, के, को, हा
+                  </div>
+                </div>
+                <div class="astro-down--box grid grid-2--col">
+                  <span class="astro-data--box">
+                    सन्तान पक्षको मायामा कमी आउनेछ । सहकर्मीबाट विरोध आउला ।
+                    गरेको कार्यमा अवरोध आउला । प्रेमप्रसङ्गमा समेत नरमाइलोपन
+                    आउनेछ ।
+                  </span>
+                  <img
+                    src="img/rashifal/3.png"
+                    alt="calendy aries img"
+                    class="astro-img-box"
+                  />
+                </div>
+              </div>
+
+              <div class="astrology cancer">
+                <div class="astro-up--box">
+                  <div class="astro-name--box">कर्कट</div>
+                  <div class="astro-link-words">
+                    हि, हु, हे, हो, डा, डि, डु, डे, डो
+                  </div>
+                </div>
+                <div class="astro-down--box grid grid-2--col">
+                  <span class="astro-data--box">
+                    आज रमाइलो यात्रा रहला । आकस्मिक धन लाभ हुनेछ । आफन्त र
+                    साथीभाइबाट सहयोग तथा हौसला प्राप्त हुनेछ । सन्तान सुख पनि
+                    मिल्नेछ ।
+                  </span>
+                  <img
+                    src="img/rashifal/4.png"
+                    alt="calendy aries img"
+                    class="astro-img-box"
+                  />
+                </div>
+              </div>
+
+              <div class="astrology leo">
+                <div class="astro-up--box">
+                  <div class="astro-name--box">सिंह</div>
+                  <div class="astro-link-words">
+                    मा, मि, मु, मे, मो, टा, टि, टु, टे
+                  </div>
+                </div>
+                <div class="astro-down--box grid grid-2--col">
+                  <span class="astro-data--box">
+                    धर्मकर्म तथा समाजसेवामा मन लाग्नेछ । नयाँ व्यक्ति सँग भेटघाट
+                    हुनेछ । रोकिएको धन हात पर्ला । सुन्दर पहिरनले व्यक्तित्वमा
+                    निखारता ल्याउनेछ ।
+                  </span>
+                  <img
+                    src="img/rashifal/5.png"
+                    alt="calendy aries img"
+                    class="astro-img-box"
+                  />
+                </div>
+              </div>
+
+              <div class="astrology virgo">
+                <div class="astro-up--box">
+                  <div class="astro-name--box">कन्या</div>
+                  <div class="astro-link-words">
+                    टो, पा, पि, पु, ष, ण, ठ, पे, पो
+                  </div>
+                </div>
+                <div class="astro-down--box grid grid-2--col">
+                  <span class="astro-data--box">
+                    समाजसेवामा मन लाग्नेछ । पुरानो र रोकिएको काम दोहोर्याएर
+                    गर्दा सफलता मिल्नसक्छ । शेयर बजारमा गरेको लगानीले राम्रो
+                    प्रतिफल देला ।
+                  </span>
+                  <img
+                    src="img/rashifal/6.png"
+                    alt="calendy aries img"
+                    class="astro-img-box"
+                  />
+                </div>
+              </div>
+
+              <div class="astrology libra">
+                <div class="astro-up--box">
+                  <div class="astro-name--box">तुला</div>
+                  <div class="astro-link-words">
+                    रा, रि, रु, रे, रो, ता, ति, तु, ते
+                  </div>
+                </div>
+                <div class="astro-down--box grid grid-2--col">
+                  <span class="astro-data--box">
+                    ताकेका काममा बाधा हुनेछ । नयाँ ठाउँमा आर्थिक लगानी गर्नु
+                    उपलब्धीमूलक हुनेछैन । सङ्कटको सामना गर्दै उपलब्धि हासिल
+                    गर्नु पर्नेछ ।
+                  </span>
+                  <img
+                    src="img/rashifal/7.png"
+                    alt="calendy aries img"
+                    class="astro-img-box"
+                  />
+                </div>
+              </div>
+
+              <div class="astrology scorpio">
+                <div class="astro-up--box">
+                  <div class="astro-name--box">वृश्चिक</div>
+                  <div class="astro-link-words">
+                    तो, ना, नि, नु, ने, नो, या, यि, यु
+                  </div>
+                </div>
+                <div class="astro-down--box grid grid-2--col">
+                  <span class="astro-data--box">
+                    विद्याको विकास हुनेछ । पार्टी तथा सेमिनारमा सहभागी भइएला ।
+                    परिश्रमअनुसार उपलब्धि पनि राम्रै पाइएला । आर्थिक लाभ पनि
+                    हुनेछ ।
+                  </span>
+                  <img
+                    src="img/rashifal/8.png"
+                    alt="calendy aries img"
+                    class="astro-img-box"
+                  />
+                </div>
+              </div>
+
+              <div class="astrology sagittarius">
+                <div class="astro-up--box">
+                  <div class="astro-name--box">धनु</div>
+                  <div class="astro-link-words">
+                    ये, यो, भा, भि, भु, धा, फा, ढा, भे
+                  </div>
+                </div>
+                <div class="astro-down--box grid grid-2--col">
+                  <span class="astro-data--box">
+                    उन्नति एवं प्रगतिको वातावरण बन्नेछ । वैदेशिक र घरजग्गाको
+                    कारोबारमा सफलता मिल्नेछ । मेहनतीहरूका लागि दिन बढी फलदायी
+                    रहनेछ ।
+                  </span>
+                  <img
+                    src="img/rashifal/9.png"
+                    alt="calendy aries img"
+                    class="astro-img-box"
+                  />
+                </div>
+              </div>
+
+              <div class="astrology capricorn">
+                <div class="astro-up--box">
+                  <div class="astro-name--box">मकर</div>
+                  <div class="astro-link-words">
+                    भो,जा,जि,जु,जे,जो,ख,खि,खु,खे,खो,गा,गि
+                  </div>
+                </div>
+                <div class="astro-down--box grid grid-2--col">
+                  <span class="astro-data--box">
+                    आज साथीभाइबाट सहयोग लिने समय छ । नयाँ काम सुरु गर्ने समय छ ।
+                    जोशजाँगर र उमंग बढ्ला । आर्थिक कारोबारमा सफलता पाइएला ।
+                  </span>
+                  <img
+                    src="img/rashifal/10.png"
+                    alt="calendy aries img"
+                    class="astro-img-box"
+                  />
+                </div>
+              </div>
+
+              <div class="astrology aquarius">
+                <div class="astro-up--box">
+                  <div class="astro-name--box">कुम्भ</div>
+                  <div class="astro-link-words">
+                    गु, गे, गो, सा, सि, सु, से, सो, दा
+                  </div>
+                </div>
+                <div class="astro-down--box grid grid-2--col">
+                  <span class="astro-data--box">
+                    आज दबाब र तनाव बढेको महसुस हुनेछ । अधिकार प्राप्तिका लागि
+                    संघर्ष गर्नु पर्ला । काममा ढिलासुस्ती हुनेछ, तर आफन्तले
+                    सहयोग गर्नेछन् ।
+                  </span>
+                  <img
+                    src="img/rashifal/11.png"
+                    alt="calendy aries img"
+                    class="astro-img-box"
+                  />
+                </div>
+              </div>
+
+              <div class="astrology pisces">
+                <div class="astro-up--box">
+                  <div class="astro-name--box">मीन</div>
+                  <div class="astro-link-words">
+                    दि, दु, थ, झ, ञ, दे, दो, चा, चि
+                  </div>
+                </div>
+                <div class="astro-down--box grid grid-2--col">
+                  <span class="astro-data--box">
+                    श्रमको उचित मूल्याङ्कन हुनेछ । व्यवसायको सन्दर्भमा आदर्श
+                    व्यक्‍तित्व सँगको सहकार्यले नयाँ अनुभव मिल्नेछ । रोकिएका काम
+                    पुनः सुरु हुन सक्छन् ।
+                  </span>
+                  <img
+                    src="img/rashifal/12.png"
+                    alt="calendy aries img"
+                    class="astro-img-box"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="news-box radius">
+              <div class="news-cont-box">
+                <img src="img/mail.png" alt="Mail Img" class="news-mail-icon" />
+                <h3 class="heading-tertiary news-heading">Newsletter</h3>
+                <p class="news-para">
+                  Enter your email to recive daily updates
+                </p>
+
+                <form class="news-form-box">
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                  />
+                  <input
+                    type="submit"
+                    value="Subscribe Now"
+                    class="btn gradient newsl-cta"
+                  />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- RASHIFAL SECTION END -->
+    </main>
+
+    <!-- FOOTER SECTION BEGIN -->
+    <footer class="section-footer gradient">
+      <div class="footer grid">
+        <div class="logo-box">
+          <div class="left-item-box">
+            <img
+              src="img/logo-white.png"
+              alt="calendy logo"
+              class="logo calendy--logo"
+            />
+            <p class="footer-para">
+              Calendy Nepali web app which show date, time and nepali holidays
+              tithi rashifal etc
+            </p>
+          </div>
+
+          <ul class="social-links">
+            <li class="footer-icon">
+              <a href="https://www.facebook.com/heykhem/">
+                <ion-icon name="logo-facebook" class="footer-ion-icon">
+                </ion-icon
+              ></a>
+            </li>
+            <li class="footer-icon">
+              <a href="#">
+                <ion-icon name="logo-instagram" class="footer-ion-icon">
+                </ion-icon>
+              </a>
+            </li>
+            <li class="footer-icon">
+              <a href="https://twitter.com/khemrajbt"
+                ><ion-icon
+                  name="logo-twitter"
+                  class="footer-ion-icon"
+                ></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="product-box">
+          <h3 class="footer-heading">Product</h3>
+          <ul class="ul-box">
+            <li class="footer-links"><a href="index.html">Calendar</a></li>
+            <li class="footer-links"><a href="rashifal.html">Rashifal</a></li>
+            <li class="footer-links"><a href="forex.html">Forex</a></li>
+            <li class="footer-links"><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="company-box">
+          <h3 class="footer-heading">Company</h3>
+          <ul class="ul-box">
+            <li class="footer-links">
+              <a href="pages/about.html">About us</a>
+            </li>
+            <li class="footer-links">
+              <a href="pages/contact.html">Contact us</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="policy--box">
+          <span class="copyright">
+            Copyright &copy; 2022 All Rights Reserved
+          </span>
+          <ul class="policy-ul">
+            <li class="footer-links">
+              <a href="pages/terms.html">Terms & Conditions</a>
+            </li>
+            <li class="footer-links">
+              <a href="pages/privacy-policy.html">Privacy Policy</a>
+            </li>
+            <li class="footer-links">
+              <a href="pages/privacy-policy.html">Cookies</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER SECTION BEGIN -->
+
+    <!-- IONICONS SCRIPT -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
